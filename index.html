@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ali Mohammed Binyahya | Developer</title>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 900px;
+      padding: 2rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 40ς40px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 span {
+      color: var(--accent);
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .skill {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      color: var(--accent);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    a.button {
+      text-decoration: none;
+      padding: 0.8rem 1.4rem;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .primary {
+      background: var(--accent);
+      color: #020617;
+    }
+
+    .primary:hover {
+      opacity: 0.85;
+    }
+
+    .secondary {
+      border: 1px solid #1e293b;
+      color: var(--text);
+    }
+
+    .secondary:hover {
+      background: #020617;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Hi, I’m <span>Ali Mohammed Binyahya</span> 👋</h1>
+      <div class="subtitle">Beginner Frontend / Mobile Developer</div>
+
+      <p>
+        I enjoy building clean and simple apps while learning modern technologies.
+        I mostly work with React and React Native, and I’m currently growing my skills
+        to land my first IT job.
+      </p>
+
+      <div class="skills">
+        <div class="skill">React</div>
+        <div class="skill">React Native</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">PHP</div>
+      </div>
+
+      <div class="buttons">
+        <a class="button primary" href="https://github.com/Ali Mohammed Binyahya" target="_blank">
+          GitHub
+        </a>
+        <a class="button secondary" href="/something">
+          My Projects
+        </a>
+      </div>
+
+      <footer>
+        © 2026 Ali Mohammed Binyahya — Built with ❤️ on GitHub Pages
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
